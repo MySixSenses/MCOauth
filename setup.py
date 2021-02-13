@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mcoauth", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="TheUltimateGuide",
     author_email="theultimateguideofficial@gmail.com",
     description="A small package to use MCOauth",
