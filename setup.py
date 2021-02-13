@@ -11,7 +11,7 @@ setuptools.setup(
     description="A small package to use MCOauth",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/MySixSenses/MCOauth",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
