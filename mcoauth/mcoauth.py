@@ -71,7 +71,7 @@ class MinecraftPlayer():
                     self.username = json["username"]
     def __init__(self, token):
         """Creates a new Minecraft User from a MCOauth token"""
-        self.token = token
+        self.token = int(token)
         asyncio.run(self.populate_self(token))
     def __int__(self):
         return self.token
